@@ -5,7 +5,7 @@ sed -i '' '/--hash/d' requirements.txt
 sed -i '' 's/ *; python_version.*$//' requirements.txt
 cat requirements.txt | xargs -n 1 poetry add
 
-##CELERY
+## CELERY
 
 큐 관리는 비동기 작업을 처리하는 분산 시스템의 중요한 요소이다.
 Celery, FastAPI, Redis, Flower를 통해 대기열 문제를 처리하는 예제이다.

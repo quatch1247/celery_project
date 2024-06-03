@@ -1,5 +1,7 @@
 2023/12/12 celery 예제 실행 및 정리
 
+![image](https://github.com/quatch1247/celery_project/assets/80108373/0cdee4d6-7122-4cf8-93ba-51ce18af8c2c)
+
 poetry(requirements.txt 관리)
 sed -i '' '/--hash/d' requirements.txt
 sed -i '' 's/ *; python_version.*$//' requirements.txt
